@@ -24,5 +24,38 @@
         "musicUrl":"https://freemusicarchive.org/music/Ask%20Again/hurricane-below-ground-abstract-jazz-1/crystal-seas/",
         "duration":"01:56",
         "artistName":"Mid-Air Machine"
+    },
+    {
+        "id":4,
+        "title":"Crunch",
+        "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2FeBuahI3zS1x8Svce9x8AvWtYvxpYq6GwYGiK1raz.jpg&width=290&height=290&type=album",
+        "musicUrl":"https://freemusicarchive.org/music/Bio_Unit/pinnacle/crunch/",
+        "duration":"04:16",
+        "artistName":"Bio Unit"
+    },
+    {
+        "id":5,
+        "title":"Halcyon",
+        "thumbnail":"https://freemusicarchive.org/image/?file=image%2Fge3g9cBelvod6nbZc7xpIUApKt3ocla3x9h2wv3X.jpeg&width=290&height=290&type=album",
+        "musicUrl":"https://freemusicarchive.org/music/Bio_Unit/float/halcyon-1/",
+        "duration":"05:36",
+        "artistName":"Bio Unit"
+    },
+    {
+        "id":6,
+        "title":"Vibing",
+        "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2FG8unNCBWGO8D4zYnckpJoLKynsH7ZdpKUNfcK9YH.png&width=290&height=290&type=album",
+        "musicUrl":"https://freemusicarchive.org/music/double-f-the-king/rude-boy/vibing/",
+        "duration":"01:56",
+        "artistName":"Double-F the King"
+    },
+    {
+        "id":7,
+        "title":"Lighten Up",
+        "thumbnail":"https://freemusicarchive.org/image/?file=images%2Ftracks%2FTrack_-_2016070170855474&width=290&height=290&type=track",
+        "musicUrl":"https://freemusicarchive.org/music/Kathleen_Martin/Lighten_Up/Lighten_Up/",
+        "duration":"03:30",
+        "artistName":"Kathleen Martin"
     }
+
 ]

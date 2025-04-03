@@ -26,9 +26,9 @@ const MusicPlayer = ({select}) => {
                 </div>
                 <div className='flex  justify-between items-center'>
                 <div className='w-[40px] h-[40px] bg-transparent hover:bg-gray-600 rounded-full flex justify-center items-center transition-all'><HiDotsHorizontal size={25} /></div>
-                <div className='flex gap-6'>
+                <div className='flex gap-6 items-center'>
                 <div><FaBackward size={25}/></div>
-                <div><IoIosPlayCircle size={25}/></div>
+                <div><IoIosPlayCircle size={35}/></div>
                     <div><FaForward size={25}/></div>
                 </div>
                     <div className='w-[40px] h-[40px] bg-transparent hover:bg-gray-600 rounded-full flex justify-center items-center transition-all '><PiSpeakerHigh size={25}/></div>
