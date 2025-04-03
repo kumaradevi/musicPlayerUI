@@ -5,23 +5,27 @@ import { FaBackward } from "react-icons/fa";
 import { IoIosPlayCircle } from "react-icons/io";
 import hope from "../assets/hope.jpg";
 import { HiDotsHorizontal } from "react-icons/hi";
-import { CiPause1 } from "react-icons/ci";
+import { HiMiniPauseCircle } from "react-icons/hi2";
 import { GoMute } from "react-icons/go";
 import Dropdown from './Dropdown';
 import data from "../model/data"
+import { useDispatch } from 'react-redux';
+import { getFavList, setFavourite } from '../featured/slices/favouriteSlice';
 const MusicPlayer = ({select}) => {
     const [isPlaying,setIsPlaying]=useState(false);
     const [isMute,setIsMute]=useState(false);
     const [show,setShow] =useState(false);
     const[isFavourite,setIsFavourite]=useState(false);
-    const [favList,setFavList]=useState([])
+    const [favList,setFavList]=useState([]);
+    const dispatch=useDispatch();
     const audioRef=useRef();
 
    useEffect(()=>{
     if(audioRef.current){
         audioRef.current.pause();
         audioRef.current.load();
-        setIsPlaying(false)
+        audioRef.current.play().catch(err=>console.log(err.message))
+        setIsPlaying(true)
     }
    },[select])
   
@@ -48,19 +52,24 @@ const MusicPlayer = ({select}) => {
     setShow(!show)
   }
 
-  const addFavourite=(id)=>{
-    const fav=data.find((d)=>d.id===id);
-    setFavList((prev)=>{
-        const isExist=prev?.some((d)=>d.id===id);
-        if(!isExist){
-            const updatedList=[...prev,fav];
-            sessionStorage.setItem("favList",JSON.stringify(updatedList));
-            return updatedList;
-        }
-        return prev
-    });
-    setIsFavourite(true)
-  }
+
+    const addFavourite=(id)=>{
+        const fav=data.find((d)=>d.id===id);
+        setFavList((prev)=>{
+            const isExist=prev?.some((d)=>d.id===id);
+            if(!isExist){
+                const updatedList=[...prev,fav];
+                sessionStorage.setItem("favList",JSON.stringify(updatedList));
+                dispatch(getFavList(updatedList))
+                return updatedList;
+            }
+            return prev
+        });
+        dispatch(setFavourite(true))
+        setIsFavourite(true)
+      }
+
+ 
 
   
 //  const removeFavourite=(id)=>{
@@ -93,7 +102,7 @@ const MusicPlayer = ({select}) => {
                 </div>
                 <div className='flex gap-6 items-center'>
                 <div><FaBackward size={25}/></div>
-                <div onClick={togglePlay}> {isPlaying ? <IoIosPlayCircle size={35}/> : <CiPause1 size={35}/>}</div>
+                <div onClick={togglePlay}> {isPlaying ? <IoIosPlayCircle size={35}/> : <HiMiniPauseCircle size={35}/>}</div>
                     <div><FaForward size={25}/></div>
                 </div>
                     <div className='w-[40px] h-[40px] bg-transparent hover:bg-gray-600 rounded-full flex justify-center items-center transition-all ' onClick={toggleMute} >
