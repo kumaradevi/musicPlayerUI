@@ -21,7 +21,7 @@ const Card = () => {
         <div className="bg-[#282218] flex justify-between px-4 py-2 mt-6 text-[#9A9792] rounded-md items-center">
           <input
             type="search"
-            placeholder="Search Song,Artist"
+            placeholder="Search Song, Artist"
             className="outline-none w-[95%] text-white"
             value={query}
             onChange={(e)=>setQuery(e.target.value)}

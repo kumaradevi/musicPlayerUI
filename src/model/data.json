@@ -5,7 +5,7 @@
         "id":1,
         "title":"Hopeful After Broken Dreams",
         "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2FZ62pOIoQ9cX9cN6PU8oVVmndXiOLV2udGYtwYZQ2.jpg&width=290&height=290&type=album",
-        "musicUrl":"https://freemusicarchive.org/music/Lobo_Loco/man-out-of-the-river/hopeful-after-broken-dreams-id-2303/",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Lobo%20Loco%20-%20Hopeful%20after%20Broken%20Dreams%20%28ID%202303%29-X8DuOkENU1PPhww5YAQNfT8KeZTF2W.mp3",
         "duration":"03:58",
         "artistName":"Lobo Loco"
     },
@@ -13,7 +13,7 @@
         "id":2,
         "title":"Winding Road Race",
         "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2F8V7Ksf9tgBPmhm3Cfi9ofiC70SZ9tSMiHw57YDFJ.jpg&width=290&height=290&type=album",
-        "musicUrl":"https://freemusicarchive.org/music/Lobo_Loco/blue-night-organ-variations/winding-road-race-id-2116/",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Lobo%20Loco%20-%20Winding%20Road%20Race%20%28ID%202116%29-tBcEmZoMtiAXT5UKnTBwxhw6VMv7KJ.mp3",
         "duration":"04:04",
         "artistName":"Lobo Loco"
     },
@@ -21,7 +21,7 @@
         "id":3,
         "title":"Crystal Seas",
         "thumbnail":"https://freemusicarchive.org/image/?file=image%2F4JwgNufWXiEjCFkQNtdLJsKF2iagbtXiDmtsK5zm.jpeg&width=290&height=290&type=album",
-        "musicUrl":"https://freemusicarchive.org/music/Ask%20Again/hurricane-below-ground-abstract-jazz-1/crystal-seas/",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Mid-Air%20Machine%20-%20Crystal%20Seas-qZ8DHUZjEMJPv9nNhMCKc7EzfqjhWJ.mp3",
         "duration":"01:56",
         "artistName":"Mid-Air Machine"
     },
@@ -29,7 +29,7 @@
         "id":4,
         "title":"Crunch",
         "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2FeBuahI3zS1x8Svce9x8AvWtYvxpYq6GwYGiK1raz.jpg&width=290&height=290&type=album",
-        "musicUrl":"https://freemusicarchive.org/music/Bio_Unit/pinnacle/crunch/",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Bio%20Unit%20-%20Crunch-ftdcGaqoPTcIasQMTehShukuaaWGqN.mp3",
         "duration":"04:16",
         "artistName":"Bio Unit"
     },
@@ -37,7 +37,7 @@
         "id":5,
         "title":"Halcyon",
         "thumbnail":"https://freemusicarchive.org/image/?file=image%2Fge3g9cBelvod6nbZc7xpIUApKt3ocla3x9h2wv3X.jpeg&width=290&height=290&type=album",
-        "musicUrl":"https://freemusicarchive.org/music/Bio_Unit/float/halcyon-1/",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Bio%20Unit%20-%20Halcyon-RH6Vitz3f8KzCQfyS1uTLyiNRItAo2.mp3",
         "duration":"05:36",
         "artistName":"Bio Unit"
     },
@@ -45,7 +45,7 @@
         "id":6,
         "title":"Vibing",
         "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2FG8unNCBWGO8D4zYnckpJoLKynsH7ZdpKUNfcK9YH.png&width=290&height=290&type=album",
-        "musicUrl":"https://freemusicarchive.org/music/double-f-the-king/rude-boy/vibing/",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Double-F%20the%20King%20-%20Vibing-nT0FW2vez9H7zYNkLssBQbButEqg4J.mp3",
         "duration":"01:56",
         "artistName":"Double-F the King"
     },
@@ -53,7 +53,7 @@
         "id":7,
         "title":"Lighten Up",
         "thumbnail":"https://freemusicarchive.org/image/?file=images%2Ftracks%2FTrack_-_2016070170855474&width=290&height=290&type=track",
-        "musicUrl":"https://freemusicarchive.org/music/Kathleen_Martin/Lighten_Up/Lighten_Up/",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Kathleen%20Martin%20-%20Lighten%20Up-ZHkoPi0tLwtk36mV79nAcD41PBVsi2.mp3",
         "duration":"03:30",
         "artistName":"Kathleen Martin"
     }
