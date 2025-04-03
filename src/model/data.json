@@ -1,0 +1,28 @@
+
+
+[
+    {
+        "id":1,
+        "title":"Hopeful After Broken Dreams",
+        "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2FZ62pOIoQ9cX9cN6PU8oVVmndXiOLV2udGYtwYZQ2.jpg&width=290&height=290&type=album",
+        "musicUrl":"https://freemusicarchive.org/music/Lobo_Loco/man-out-of-the-river/hopeful-after-broken-dreams-id-2303/",
+        "duration":"03:58",
+        "artistName":"Lobo Loco"
+    },
+    {
+        "id":2,
+        "title":"Winding Road Race",
+        "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2F8V7Ksf9tgBPmhm3Cfi9ofiC70SZ9tSMiHw57YDFJ.jpg&width=290&height=290&type=album",
+        "musicUrl":"https://freemusicarchive.org/music/Lobo_Loco/blue-night-organ-variations/winding-road-race-id-2116/",
+        "duration":"04:04",
+        "artistName":"Lobo Loco"
+    },
+    {
+        "id":3,
+        "title":"Crystal Seas",
+        "thumbnail":"https://freemusicarchive.org/image/?file=image%2F4JwgNufWXiEjCFkQNtdLJsKF2iagbtXiDmtsK5zm.jpeg&width=290&height=290&type=album",
+        "musicUrl":"https://freemusicarchive.org/music/Ask%20Again/hurricane-below-ground-abstract-jazz-1/crystal-seas/",
+        "duration":"01:56",
+        "artistName":"Mid-Air Machine"
+    }
+]

@@ -9,7 +9,7 @@ function App() {
     <div className='w-full h-[100vh] bg-[#171004] text-white flex'>
       <Sidebar/>
       <Card/>
-      <MusicPlayer/>
+      {/* <MusicPlayer/> */}
       
      
     </div>
