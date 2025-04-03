@@ -3,7 +3,7 @@ import { GiMusicSpell } from "react-icons/gi";
 
 const Sidebar = () => {
   return (
-    <div className='w-[15%]'>
+    <div className='w-full'>
        <div className='flex flex-col gap-4 p-6'>
       <div className='flex gap-2 items-center'>
         <div><GiMusicSpell size={36}/></div>

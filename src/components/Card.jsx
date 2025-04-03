@@ -2,9 +2,14 @@ import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import data from "../model/data.json";
 import MusicPlayer from "./MusicPlayer";
+import Sidebar from "./Sidebar";
 const Card = () => {
     const [select,setSelect]=useState(null);
-    const [query,setQuery]=useState("")
+    const [query,setQuery]=useState("");
+    const [isFavourite,setIsFavourite]=useState(false);
+    const [isRecent,setIsRecent]=useState(false);
+    const [favList,setFavList]=useState([]);
+    const [recentList,setRecentList]=useState([])
   
     const handleSelectSong=(id)=>{
            const song=data.find((d)=>d.id === id);
@@ -13,8 +18,11 @@ const Card = () => {
 
     const filteredData=query.length>0 ? data.filter((d)=>d.title.toLowerCase().includes(query.toLowerCase()) || d.artistName.toLowerCase().includes(query.toLowerCase())) : data;
   return (
-    <div className="w-[85%] flex">
-      <div className="w-[45%] max-h-fit overflow-auto hide-scrollbar">
+    <div className="w-[100%] flex">
+        <div className="w-[15%]">
+        <Sidebar/>
+        </div>
+      <div className="w-[40%] max-h-fit overflow-auto hide-scrollbar">
       <div className="m-12">
        <div className="sticky top-4 bg-[#171004]">
        <h1 className="font-bold text-3xl">For You</h1>
@@ -53,7 +61,7 @@ const Card = () => {
           ))}
       </div>
       </div>
-      <div className="w-[55%]">
+      <div className="w-[45%]">
         <MusicPlayer select={select}/>
       </div>
     </div>
