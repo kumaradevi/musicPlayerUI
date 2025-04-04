@@ -26,6 +26,7 @@ const MusicPlayer = ({select}) => {
         audioRef.current.load();
         audioRef.current.play().catch(err=>console.log(err.message))
         setIsPlaying(true)
+       
     }
    },[select])
   
@@ -68,35 +69,26 @@ const MusicPlayer = ({select}) => {
         dispatch(setFavourite(true))
         setIsFavourite(true)
       }
-
- 
-
-  
-//  const removeFavourite=(id)=>{
-//     const removedFav=favList.filter((d)=>d.id !== id);
-//     console.log(removedFav)
-//     setFavList(prev=>[...prev,removedFav])
-//  }
  
   return (
-    <div className='w-full'>
-        <div className='my-24 mx-32'>
+    <div className='w-[90%] mx-auto sm:w-full mt-12 sm:mt-0'>
+        <div className='sm:my-24 sm:mx-32'>
             <div className='flex flex-col gap-3'>
-                <h1 className='text-3xl font-bold'>{select?.title || "Album Name"}</h1>
-                 <p className='text-[#9A9792] text-lg'>{select?.artistName || "Artist Name"}</p>
+                <h1 className='text-xl mt-12 sm:mt-0 sm:text-3xl font-bold'>{select?.title || "Album Name"}</h1>
+                 <p className='text-sm text-[#9A9792] sm:text-lg'>{select?.artistName || "Artist Name"}</p>
             </div>
-            <div className='w-[430px] h-[350px]   mt-12'>
+            <div className='w-full sm:w-[430px] h-[350px] mt-12'>
              <img src={select?.thumbnail || hope} alt="thumbnail" className='w-full h-full object-cover rounded-lg' />
             </div>
             <div>
             <audio src={select?.musicUrl} ref={audioRef}>
                
             </audio>
-            <div className='flex flex-col gap-8 mt-6 w-[430px]'>
-                <div className='w-[430px] bg-gray-600 rounded-full h-[5px] '>
+            <div className='flex flex-col gap-8 mt-6 w-[100%] sm:w-[430px]'>
+                <div className='w-[100%] sm:w-[430px] bg-gray-600 rounded-full h-[5px] '>
                   <div className='bg-white w-[80%]  h-[100%] rounded-full'></div>
                 </div>
-                <div className='flex  justify-between items-center'>
+                <div className='flex gap-12 justify-center sm:justify-between items-center'>
                 <div className='w-[40px] h-[40px] bg-transparent hover:bg-gray-600 rounded-full flex justify-center items-center transition-all relative' onClick={handleDropdown}><HiDotsHorizontal size={25} />
                 {show && <div className='absolute top-[-50px] left-[-140px]'><Dropdown addFavourite={()=>addFavourite(select.id)} isFavourite={isFavourite}/>  </div>}
                 </div>
@@ -106,7 +98,7 @@ const MusicPlayer = ({select}) => {
                     <div><FaForward size={25}/></div>
                 </div>
                     <div className='w-[40px] h-[40px] bg-transparent hover:bg-gray-600 rounded-full flex justify-center items-center transition-all ' onClick={toggleMute} >
-                       {isMute ?  <PiSpeakerHigh size={25}/> :<GoMute size={25}/> }
+                       {!isMute ?  <PiSpeakerHigh size={25}/> :<GoMute size={25}/> }
                         </div>
                 </div>
                 </div>

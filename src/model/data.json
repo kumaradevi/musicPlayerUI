@@ -7,7 +7,9 @@
         "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2FZ62pOIoQ9cX9cN6PU8oVVmndXiOLV2udGYtwYZQ2.jpg&width=290&height=290&type=album",
         "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Lobo%20Loco%20-%20Hopeful%20after%20Broken%20Dreams%20%28ID%202303%29-X8DuOkENU1PPhww5YAQNfT8KeZTF2W.mp3",
         "duration":"03:58",
-        "artistName":"Lobo Loco"
+        "artistName":"Lobo Loco",
+        "bgColor":"#2A3919",
+        "color":"#619A2E"
     },
     {
         "id":2,
@@ -15,7 +17,9 @@
         "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2F8V7Ksf9tgBPmhm3Cfi9ofiC70SZ9tSMiHw57YDFJ.jpg&width=290&height=290&type=album",
         "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Lobo%20Loco%20-%20Winding%20Road%20Race%20%28ID%202116%29-tBcEmZoMtiAXT5UKnTBwxhw6VMv7KJ.mp3",
         "duration":"04:04",
-        "artistName":"Lobo Loco"
+        "artistName":"Lobo Loco",
+        "bgColor":"#F2C600",
+        "color":"#FEFEAB"
     },
     {
         "id":3,
@@ -23,7 +27,9 @@
         "thumbnail":"https://freemusicarchive.org/image/?file=image%2F4JwgNufWXiEjCFkQNtdLJsKF2iagbtXiDmtsK5zm.jpeg&width=290&height=290&type=album",
         "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Mid-Air%20Machine%20-%20Crystal%20Seas-qZ8DHUZjEMJPv9nNhMCKc7EzfqjhWJ.mp3",
         "duration":"01:56",
-        "artistName":"Mid-Air Machine"
+        "artistName":"Mid-Air Machine",
+        "bgColor":"#6A5C4F",
+        "color":"#BCA698"
     },
     {
         "id":4,
@@ -31,7 +37,9 @@
         "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2FeBuahI3zS1x8Svce9x8AvWtYvxpYq6GwYGiK1raz.jpg&width=290&height=290&type=album",
         "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Bio%20Unit%20-%20Crunch-ftdcGaqoPTcIasQMTehShukuaaWGqN.mp3",
         "duration":"04:16",
-        "artistName":"Bio Unit"
+        "artistName":"Bio Unit",
+        "bgColor":"#FD520E",
+        "color":"#FF778A"
     },
     {
         "id":5,
@@ -39,7 +47,9 @@
         "thumbnail":"https://freemusicarchive.org/image/?file=image%2Fge3g9cBelvod6nbZc7xpIUApKt3ocla3x9h2wv3X.jpeg&width=290&height=290&type=album",
         "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Bio%20Unit%20-%20Halcyon-RH6Vitz3f8KzCQfyS1uTLyiNRItAo2.mp3",
         "duration":"05:36",
-        "artistName":"Bio Unit"
+        "artistName":"Bio Unit",
+        "bgColor":"#0278AB",
+        "color":"#01C6E6"
     },
     {
         "id":6,
@@ -47,7 +57,9 @@
         "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2FG8unNCBWGO8D4zYnckpJoLKynsH7ZdpKUNfcK9YH.png&width=290&height=290&type=album",
         "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Double-F%20the%20King%20-%20Vibing-nT0FW2vez9H7zYNkLssBQbButEqg4J.mp3",
         "duration":"01:56",
-        "artistName":"Double-F the King"
+        "artistName":"Double-F the King",
+        "bgColor":"#002F00",
+        "color":"#002F00"
     },
     {
         "id":7,
@@ -55,7 +67,71 @@
         "thumbnail":"https://freemusicarchive.org/image/?file=images%2Ftracks%2FTrack_-_2016070170855474&width=290&height=290&type=track",
         "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Kathleen%20Martin%20-%20Lighten%20Up-ZHkoPi0tLwtk36mV79nAcD41PBVsi2.mp3",
         "duration":"03:30",
-        "artistName":"Kathleen Martin"
+        "artistName":"Kathleen Martin",
+        "bgColor":"#282019",
+        "color":"#7E6A5A"
+    },
+    {
+        "id":8,
+        "title":"Waltz to a Wood Thursh",
+        "thumbnail":"https://freemusicarchive.org/image/?file=images%2Falbums%2FKathleen_Martin_-_Waltz_to_a_Wood_Thrush_-_2015071665852526.jpg&width=290&height=290&type=album",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Kathleen%20Martin%20-%20Waltz%20to%20a%20Wood%20Thrush-uLxKwMBdN2sgWKBQnKlTCpdUl0ySVd.mp3",
+        "duration":"03:39",
+        "artistName":"Kathleen Martin",
+        "bgColor":"#426F29",
+        "color":"#8BB962",
+        "hover":"#82B85B"
+    },
+    {
+        "id":9,
+        "title":"Doobie",
+        "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2FdRXohJqzrgGlRpDdgjtHBX8Ksrl5f9ZOU7el1Ve1.jpg&width=290&height=290&type=album",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Ketsa%20-%20Doobie-sQJLdsQcn9NAIrM614TN2GxPhbxr8l.mp3",
+        "duration":"03:03",
+        "artistName":"Ketsa",
+        "bgColor":"#1A2747",
+        "color":"#5587B4",
+        "hover":"#5587B4"
+    },
+    {
+        "id":10,
+        "title":"Beyond",
+        "thumbnail":"https://freemusicarchive.org/image/?file=album_image%2F1P10MFd7l30a35FgtMyTM0JZ6hoPYACJt8os9nVy.png&width=290&height=290&type=album",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Audioinsmusic%20-%20Beyond.mp3-OuHsNloaT5sbJZqfEI5zzjzOF7iWz7.mp3",
+        "duration":"03:03",
+        "artistName":"Audioinsmusic",
+        "bgColor":"#940D09",
+        "color":"#A22E16"
+    },
+    {
+        "id":11,
+        "title":"Higher",
+        "thumbnail":"https://freemusicarchive.org/image/?file=track_image%2FfwDvdA1tq8G4EiI3buiWB0Rfy4I82YkQqe89pDgn.jpg&width=290&height=290&type=track",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Audioinsmusic%20-%20Beyond.mp3-OuHsNloaT5sbJZqfEI5zzjzOF7iWz7.mp3",
+        "duration":"02:28",
+        "artistName":"Sunnyscy",
+        "bgColor":"#A22E16",
+        "color":"#E8E6E2"
+    },
+    {
+        "id":12,
+        "title":"Epic Adventures",
+        "thumbnail":"https://freemusicarchive.org/image/?file=track_image%2FyFZTiTO9H7bZH31njhvBlCu4sHsdcQr1JXGQCXbo.jpg&width=290&height=290&type=track",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/BoDleasons%20-%20Epic%20Adventures-w93hxiVMo0PNzS2mEr6ACszlWCOnK1.mp3",
+        "duration":"01:58",
+        "artistName":"BoDleasons",
+        "bgColor":"#27274E",
+        "color":"#3971AD"
+    },
+    {
+        "id":13,
+        "title":"Through The Sky",
+        "thumbnail":"https://freemusicarchive.org/image/?file=track_image%2FeDEUwXrtpg8R2ykyDE3eP03c4SsqDkUqvO86eftS.jpg&width=290&height=290&type=track",
+        "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Audioinsmusic%20-%20Beyond.mp3-OuHsNloaT5sbJZqfEI5zzjzOF7iWz7.mp3",
+        "duration":"02:09",
+        "artistName":"BoDleasons",
+        "bgColor":"#011A45",
+        "color":"#658FB2"
     }
 
 ]
