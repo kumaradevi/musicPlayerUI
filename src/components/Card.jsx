@@ -107,7 +107,7 @@ const Card = () => {
               backgroundColor: `${select?.bgColor}`,
             }}
             transition={{ delay: 0.3 }}
-            className={`sticky top-0 z-[99] p-3 ${
+            className={`sticky top-0 z-[99]  p-1 ml-4 lg:ml-0 lg:p-3 ${
               select ? `bg-[${select.bgColor}]` : bgColor
             } rounded-xl`}
           >

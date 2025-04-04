@@ -106,9 +106,9 @@ const MusicPlayer = ({select,setSelect}) => {
  
   return (
     <div className='w-[90%] mx-auto sm:w-full mt-8 sm:mt-0'>
-        <div className='sm:my-24 sm:mx-32'>
+        <div className='xl:my-24 xl:mx-32 '>
             <div className='flex flex-col gap-3'>
-                <motion.h1 className='text-xl mt-12 sm:mt-0 sm:text-3xl font-bold'>{select?.title || "Are you ready to hear music?"}</motion.h1>
+                <motion.h1 className='text-xl mt-12 sm:mt-12 lg:mt-0 lg:text-3xl font-bold'>{select?.title || "Are you ready to hear music?"}</motion.h1>
                  <p className='text-sm text-[#9A9792] sm:text-lg'>{select?.artistName || ""}</p>
             </div>
             <motion.div initial={{scale:2,rotate:60}} animate={{scale:1,rotate:0}} transition={{type:"spring"}} className='w-full sm:w-[410px] h-[380px] mt-8'>
