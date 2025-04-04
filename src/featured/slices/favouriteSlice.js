@@ -1,7 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit"
-import { act } from "react"
-
-
 
 const initialState={
     favList:[],
@@ -19,6 +16,7 @@ const favouriteSlice=createSlice({
         setFavourite:(state,action)=>{
             state.status=action.payload
         }
+       
         
     }
 })

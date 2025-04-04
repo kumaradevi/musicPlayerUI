@@ -40,18 +40,18 @@ const Sidebar = ({setIsFavourite,setIsRecent,setIsTop}) => {
             <p className='hover:bg-gray-600'>For You</p>
             <motion.p className={`${activeTab=="top" ? "text-white" :"text-[#9A9792]"} cursor-pointer`}
             whileHover={{ scale: 1.2 }}
-            animate={activeTab === "top" ? { x: 10, opacity: 1 } : { x: 0, opacity: 0.7 }}
+            animate={activeTab === "top" ? { scale:1.1, opacity: 1 } : { scale:1, opacity: 0.9 }}
             transition={{ duration: 0.3 }}
             onClick={goToTop}>Top Tracks</motion.p>
             <motion.p className={`${activeTab=="favourite" ? "text-white" :"text-[#9A9792]"} cursor-pointer`}  
             whileHover={{ scale: 1.2 }}
-            animate={activeTab === "favourite" ? { x: 10, opacity: 1 } : { x: 0, opacity: 0.7 }}
+            animate={activeTab === "favourite" ? { scale:1.1, opacity: 1 } : { scale:1, opacity: 0.9 }}
             transition={{ duration: 0.3 }}
             onClick={goToFavourite}>Favourite</motion.p>
             <motion.p className={`${activeTab=="recent" ? "text-white" :"text-[#9A9792]"} cursor-pointer`} 
-             whileHover={{ scale: 1.2 }}
-             animate={activeTab === "recent" ? { x: [-50,0], opacity: 1 } : { x: 0, opacity: 0.7 }}
-             transition={{ duration: 0.3,type:"spring", stiffness:120}}
+               whileHover={{ scale: 1.2 }}
+               animate={activeTab === "recent" ? { scale:1.1, opacity: 1 } : { scale:1, opacity: 0.9 }}
+               transition={{ duration: 0.3 }}
             onClick={goToRecent}>Recently Played</motion.p>
         </div>
        </div>

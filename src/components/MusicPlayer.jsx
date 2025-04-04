@@ -24,7 +24,7 @@ const MusicPlayer = ({select,setSelect}) => {
     const dispatch=useDispatch();
     const audioRef=useRef();
 
-    const currentIndex=data.findIndex((d)=>d.id==select?.id)
+    const currentIndex=data?.findIndex((d)=>d.id==select?.id);
 
    useEffect(()=>{
     if(audioRef.current){
