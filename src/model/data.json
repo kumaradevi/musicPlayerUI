@@ -68,7 +68,7 @@
         "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Kathleen%20Martin%20-%20Lighten%20Up-ZHkoPi0tLwtk36mV79nAcD41PBVsi2.mp3",
         "duration":"03:30",
         "artistName":"Kathleen Martin",
-        "bgColor":"#282019",
+        "bgColor":"#675140",
         "color":"#7E6A5A"
     },
     {
@@ -110,7 +110,7 @@
         "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Audioinsmusic%20-%20Beyond.mp3-OuHsNloaT5sbJZqfEI5zzjzOF7iWz7.mp3",
         "duration":"02:28",
         "artistName":"Sunnyscy",
-        "bgColor":"#A22E16",
+        "bgColor":"#8BB962",
         "color":"#E8E6E2"
     },
     {
@@ -130,7 +130,7 @@
         "musicUrl":"https://nau9uy7ktbcvrxkl.public.blob.vercel-storage.com/music/Audioinsmusic%20-%20Beyond.mp3-OuHsNloaT5sbJZqfEI5zzjzOF7iWz7.mp3",
         "duration":"02:09",
         "artistName":"BoDleasons",
-        "bgColor":"#011A45",
+        "bgColor":"#01467E",
         "color":"#658FB2"
     }
 

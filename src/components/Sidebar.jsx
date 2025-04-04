@@ -38,9 +38,21 @@ const Sidebar = ({setIsFavourite,setIsRecent,setIsTop}) => {
       </div>
         <div className='flex flex-col gap-5 mt-8'>
             <p className='hover:bg-gray-600'>For You</p>
-            <p className={`${activeTab=="top" ? "text-white" :"text-[#9A9792]"} cursor-pointer`} onClick={goToTop}>Top Tracks</p>
-            <p className={`${activeTab=="favourite" ? "text-white" :"text-[#9A9792]"} cursor-pointer`}  onClick={goToFavourite}>Favourite</p>
-            <p className={`${activeTab=="recent" ? "text-white" :"text-[#9A9792]"} cursor-pointer`}  onClick={goToRecent}>Recently Played</p>
+            <motion.p className={`${activeTab=="top" ? "text-white" :"text-[#9A9792]"} cursor-pointer`}
+            whileHover={{ scale: 1.2 }}
+            animate={activeTab === "top" ? { x: 10, opacity: 1 } : { x: 0, opacity: 0.7 }}
+            transition={{ duration: 0.3 }}
+            onClick={goToTop}>Top Tracks</motion.p>
+            <motion.p className={`${activeTab=="favourite" ? "text-white" :"text-[#9A9792]"} cursor-pointer`}  
+            whileHover={{ scale: 1.2 }}
+            animate={activeTab === "favourite" ? { x: 10, opacity: 1 } : { x: 0, opacity: 0.7 }}
+            transition={{ duration: 0.3 }}
+            onClick={goToFavourite}>Favourite</motion.p>
+            <motion.p className={`${activeTab=="recent" ? "text-white" :"text-[#9A9792]"} cursor-pointer`} 
+             whileHover={{ scale: 1.2 }}
+             animate={activeTab === "recent" ? { x: [-50,0], opacity: 1 } : { x: 0, opacity: 0.7 }}
+             transition={{ duration: 0.3,type:"spring", stiffness:120}}
+            onClick={goToRecent}>Recently Played</motion.p>
         </div>
        </div>
     </div>
